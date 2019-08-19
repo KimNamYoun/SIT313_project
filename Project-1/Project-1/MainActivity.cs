@@ -20,9 +20,14 @@ namespace Project_1
             base.OnCreate(savedInstanceState);
 
             SetContentView(Resource.Layout.content_main);
-
+            var bt = FindViewById<Button>(Resource.Id.button1);
+            bt.Click += BtOnClick;
         }
 
+        private void BtOnClick(object sender, EventArgs e)
+        {
+            StartActivity(new Intent(Application.Context, typeof(MenuActivity)));
+        }
     }
 }
 

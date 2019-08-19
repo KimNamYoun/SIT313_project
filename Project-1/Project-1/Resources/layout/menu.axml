@@ -4,5 +4,141 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 	android:background="#87ceeb">
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="150dp">
+		<ImageView
+			android:src="@drawable/chicken1"
+			android:layout_width="150dp"
+			android:layout_height="match_parent"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:id="@+id/imageView1" />
+		
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+			
+			<TextView
+				android:text="Chuncheon Spicy Chicken"
+				android:textSize="18dp"
+				android:textColor="#0009ff"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/textView1"
+				android:layout_marginLeft="10dp" />
+			<TextView
+				android:text="Price : $42"
+				android:textSize="16dp"
+				android:textColor="#000"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/textView1"
+				android:layout_marginLeft="10dp" />
+			<TextView
+				android:text="Grilled chicken tossed around with vegetables and spicy sauce mix. Basic dish includes pieces of rice cakes, fried sweet potatoes, and vegetables."
+				android:textSize="16dp"
+				android:textColor="#000"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/textView1"
+				android:layout_marginLeft="10dp" />
 
+
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="150dp">
+		<ImageView
+			android:src="@drawable/beef"
+			android:layout_width="150dp"
+			android:layout_height="match_parent"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:id="@+id/imageView1" />
+		
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+			
+			<TextView
+				android:text="Beef Bulgogi"
+				android:textSize="18dp"
+				android:textColor="#0009ff"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/textView1"
+				android:layout_marginLeft="10dp" />
+			<TextView
+				android:text="Price : $20"
+				android:textSize="16dp"
+				android:textColor="#000"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/textView1"
+				android:layout_marginLeft="10dp" />
+			<TextView
+				android:text="Beef slices marinated in Korean sweet soy, grilled, and tossed over with vegetables."
+				android:textSize="16dp"
+				android:textColor="#000"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/textView1"
+				android:layout_marginLeft="10dp" />
+
+
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="150dp">
+		<ImageView
+			android:src="@drawable/bu"
+			android:layout_width="150dp"
+			android:layout_height="match_parent"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:id="@+id/imageView1" />
+		
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+			
+			<TextView
+				android:text="Budae Jjigae"
+				android:textSize="18dp"
+				android:textColor="#0009ff"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/textView1"
+				android:layout_marginLeft="10dp" />
+			<TextView
+				android:text="Price : $40"
+				android:textSize="16dp"
+				android:textColor="#000"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/textView1"
+				android:layout_marginLeft="10dp" />
+			<TextView
+				android:text="Combination of ham, sausage and vegetables in hot and spicy soup."
+				android:textSize="16dp"
+				android:textColor="#000"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/textView1"
+				android:layout_marginLeft="10dp" />
+
+
+		</LinearLayout>
+	</LinearLayout>
 </LinearLayout>
