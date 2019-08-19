@@ -2462,9 +2462,6 @@ namespace Project_1
 			// aapt resource value: 0x7f080047
 			public const int center_vertical = 2131230791;
 			
-			// aapt resource value: 0x7f08008e
-			public const int checkBox1 = 2131230862;
-			
 			// aapt resource value: 0x7f080073
 			public const int checkbox = 2131230835;
 			
@@ -2518,12 +2515,6 @@ namespace Project_1
 			
 			// aapt resource value: 0x7f080020
 			public const int disableHome = 2131230752;
-			
-			// aapt resource value: 0x7f08008c
-			public const int editText1 = 2131230860;
-			
-			// aapt resource value: 0x7f08008d
-			public const int editText2 = 2131230861;
 			
 			// aapt resource value: 0x7f08007e
 			public const int edit_query = 2131230846;
@@ -2615,6 +2606,9 @@ namespace Project_1
 			// aapt resource value: 0x7f080061
 			public const int list_item = 2131230817;
 			
+			// aapt resource value: 0x7f08008e
+			public const int loginButton = 2131230862;
+			
 			// aapt resource value: 0x7f0800b5
 			public const int masked = 2131230901;
 			
@@ -2662,6 +2656,9 @@ namespace Project_1
 			
 			// aapt resource value: 0x7f08000b
 			public const int parent_matrix = 2131230731;
+			
+			// aapt resource value: 0x7f08008d
+			public const int password = 2131230861;
 			
 			// aapt resource value: 0x7f08004d
 			public const int pin = 2131230797;
@@ -2866,6 +2863,9 @@ namespace Project_1
 			
 			// aapt resource value: 0x7f080026
 			public const int useLogo = 2131230758;
+			
+			// aapt resource value: 0x7f08008c
+			public const int username = 2131230860;
 			
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;

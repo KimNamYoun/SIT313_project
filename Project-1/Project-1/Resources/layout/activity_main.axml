@@ -17,27 +17,22 @@
 		android:inputType="textEmailAddress"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:id="@+id/editText1"
+		android:id="@+id/username"
 		android:hint="E-mail"
 		android:layout_marginTop="30dp"/>
 	<EditText
 		android:inputType="textPassword"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:id="@+id/editText2"
+		android:id="@+id/password"
 		android:hint="password"
 		android:layout_marginTop="20dp"/>
-	<CheckBox
-		android:text="Remember E-mail and password"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:id="@+id/checkBox1"
-		android:layout_marginTop="10dp"/>
+	
 	<Button
 		android:text="login"
 		android:layout_width="200dp"
 		android:layout_height="wrap_content"
-		android:id="@+id/button1" 
+		android:id="@+id/loginButton" 
 		android:layout_marginTop="50dp"
 		android:layout_gravity="center"/>
 
